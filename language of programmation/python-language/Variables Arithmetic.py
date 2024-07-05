@@ -1,5 +1,8 @@
-		int celsius, fahr
-		int lower, upper, step
+		int celsius
+        int fahr
+		int lower 
+        int upper 
+        int step
 
 
 		lower=0
