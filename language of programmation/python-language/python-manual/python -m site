@@ -1,0 +1,20 @@
+<python -m site> //to execute package in python
+
+//ways where python found packages
+
+sys.path = [
+    '/workspace/gitpod/language of programmation/python-language',
+    '/home/gitpod/.pyenv/versions/3.12.3/lib/python312.zip',
+    '/home/gitpod/.pyenv/versions/3.12.3/lib/python3.12',
+    '/home/gitpod/.pyenv/versions/3.12.3/lib/python3.12/lib-dynload',
+    '/home/gitpod/.pyenv/versions/3.12.3/lib/python3.12/site-packages',
+]
+
+
+//user founder
+
+USER_BASE: '/workspace/.pyenv_mirror/user/current' (exists)
+
+//Where python packages on installed.
+USER_SITE: '/workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages' (doesn't exist) //Where package is installed
+ENABLE_USER_SITE: True
