@@ -18,4 +18,4 @@
 	/*function print*/ 			printf("%d\t%d\n", oneval, twoval);
 	/*rithm of contain*/			oneval= oneval+steplimit;
 							}
-						}
+						cat cha
